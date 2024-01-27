@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.button {
+  background-color: transparent;
+  color: #7b8794;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  border-bottom: 1px solid #7b8794;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 15px;
+}
+.selectedTabButton {
+  color: #2563eb;
+  border-color: #2563eb;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    padding: 3px 10px;
+  }
+}
